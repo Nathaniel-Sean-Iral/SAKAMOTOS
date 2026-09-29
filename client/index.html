@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakamoto's</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="top-navbar">
+      <div class="top-nav-right">
+        <a class="top-nav-button" href="/">Home</a>
+        <a class="top-nav-button" href="/menu">Menu</a>
+        <a class="top-nav-button" href="/profile">Profile</a>
+        <a class="top-nav-button" href="/orders">Orders</a>
+        <a class="top-nav-button" href="/cart">Cart</a>
+        <button id="logout-button" class="top-nav-button" type="button">Logout</button>
+      </div>
+    </header>
+
+    <aside class="navbar">
+      <a class="active" href="/">Home</a>
+      <a href="/menu">Menu</a>
+      <a href="/orders">Order List</a>
+      <a href="/profile">Account</a>
+      <a href="/cart">Your Cart</a>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-copy">
+            <h1>Sakamoto's Coffee</h1>
+            <p>Fresh brews, warm pastries, and a coffeehouse experience designed to keep regulars coming back.</p>
+            <a class="primary-btn" href="/menu">Explore Menu</a>
+          </div>
+          <div class="hero-visual" aria-label="Coffee and pastry display"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Popular picks</h2>
+        </div>
+        <div id="featured-products" class="product-grid"></div>
+      </section>
+    </main>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>

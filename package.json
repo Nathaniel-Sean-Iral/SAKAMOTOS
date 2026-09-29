@@ -1,0 +1,32 @@
+{
+  "name": "sakamoto-modernized",
+  "version": "1.0.0",
+  "description": "Node.js + PostgreSQL replacement for the Sakamoto coffee shop app.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "coffee",
+    "express",
+    "postgresql",
+    "restaurant"
+  ],
+  "author": "Converted project",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.16.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
